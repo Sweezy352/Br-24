@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;   
+}
+/*Ildilim pidor*/
+.header{
+    width: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.nav-menu{
+    width: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
