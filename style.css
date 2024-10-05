@@ -1,39 +1,43 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 3px;
     box-sizing: border-box;
     text-decoration: none;   
-<<<<<<< HEAD
     /* font-family:'Courier New', Courier, monospace; */
     /* font-family:Arial, Helvetica, sans-serif ; */
     /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     font-family:sans-serif;
+    list-style: none;
 }
+
+.back{
+    background-color: black;
+    color: white;
+}
+
 /*Ildilim pidor*/
 .header{
     width: 100%;
-=======
-}
-/*Ildilim pidor*/
-.header{
-    width: 100vh;
->>>>>>> 479faa6d1b2f1997bc27a7f995d7b27b41f95594
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 .nav-menu{
-<<<<<<< HEAD
     width: 50%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.nav-a{
-    font-size: 15px;
-    color: black;
+    .nav-a{
+        font-size: 15px;
+        color: black;
+
+    }
+
+.nav{
+    color: white;
 }
 .icon-img{
     padding-top: 14px;
@@ -52,17 +56,25 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    height: 50vh;
+    height: 85vh;
     align-items: center;
-
 }
+
 .EOW{
     font-size: 50px;
     font-weight: 700;
 }
-=======
-    width: 100vh;
-    display: flex;
-    justify-content: space-around;
+.text-main{
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 50px;
 }
->>>>>>> 479faa6d1b2f1997bc27a7f995d7b27b41f95594
+.btn-down{
+    padding: 7px 25px;
+    background-color: black;
+    border: none ;
+    color: white;
+    border-radius: 10px;
+}
