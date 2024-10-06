@@ -7,3 +7,4 @@ changeBtn.addEventListener("click", function() {
         link.classList.toggle('nav'); // Меняем класс для каждой ссылки
     });
 });
+
