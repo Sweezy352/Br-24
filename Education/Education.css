@@ -29,7 +29,12 @@
     box-shadow:1px 5px 5px black;
     visibility:hidden;
 }
-
+#change-menu{
+    z-index: 2;
+}
+.icon-text{
+    z-index: 2;
+}
 .fullmenu-changed{
     visibility:visible;
 }
@@ -131,7 +136,7 @@
 .sub-header{
     display:flex;
     justify-content:space-around;
-    width:300px;
+    width:200px;
     align-items:center;
 }
 

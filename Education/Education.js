@@ -4,7 +4,7 @@ vis.addEventListener("click", function(){
     block.classList.toggle("vis")
 })
 
-const activatemenu = document.querySelector(".menu");
+const activatemenu = document.getElementById("change-menu")
 const visiblemenu = document.querySelector(".fullmenu");
 
 activatemenu.addEventListener("click", () => {
